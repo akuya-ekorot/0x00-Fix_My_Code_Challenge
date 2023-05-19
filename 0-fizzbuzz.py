@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+import sys
 """ FizzBuzz
 """
-import sys
 
 
 def fizzbuzz(n):
