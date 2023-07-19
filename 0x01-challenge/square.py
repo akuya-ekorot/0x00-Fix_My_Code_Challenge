@@ -16,13 +16,17 @@ class Square:
         return self.size * self.size
 
     def permiter_of_my_square(self):
+        """ Permiter of the square """
         return (self.size * 4)
 
     def __str__(self):
+        """ String representation of the square """
         return "{}/{}".format(self.size, self.size)
 
 
 if __name__ == "__main__":
+    """ This will be execute only if this file is called directly
+    from the command line """
 
     s = Square(12)
     print(s)
